@@ -1,0 +1,26 @@
+/* 
+**buttons styles
+*/
+
+.add-button {
+  background: var(--main-bg-color);
+  height: 65px;
+  width: 80px;
+  border-top-left-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.button {
+  background: var(--main-bg-color);
+  height: 55px;
+  min-width: 177px;
+  border-radius: 43px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

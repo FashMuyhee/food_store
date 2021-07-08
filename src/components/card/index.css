@@ -1,0 +1,71 @@
+/* card component style */
+.card {
+  height: 400px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.card img {
+  height: 45%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 20px;
+}
+
+.card-content {
+  padding: 0px 3% 0px 3%;
+  width: 95%;
+}
+.card-content .card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.card-title h4 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.card-subtitle {
+  margin: 0;
+  color: #808080cf;
+  font-size: 12px;
+  text-align: left;
+}
+
+.card-content .desc {
+  font-size: 12px;
+  text-align: left;
+}
+
+.card .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14.3%;
+  flex-direction: row;
+  width: 97%;
+  padding-left: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

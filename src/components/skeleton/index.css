@@ -1,0 +1,39 @@
+/* skeleton component styles */
+.skeleton {
+  background-color: #dddbdd;
+  height: 350px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  margin: 5px;
+  margin-bottom: 20px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.skeleton .image {
+  height: 45%;
+  width: 100%;
+  background: rgb(187 187 187 / 50%) 60%;
+}
+.skeleton .text {
+  height: 15px;
+  width: 100%;
+  background: rgb(187 187 187 / 50%) 60%;
+  margin-top: 20px;
+}
+
+.skeleton .desc {
+  height: 35px;
+  width: 100%;
+  background: rgb(187 187 187 / 50%) 60%;
+  margin-top: 20px;
+}
+.skeleton-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
